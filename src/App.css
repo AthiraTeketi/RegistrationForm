@@ -1,0 +1,54 @@
+.regForm{
+  align-items: center;
+  justify-content: center;
+  margin: 400px;
+  background-color: rgb(94, 94, 130);
+  border: 30px;
+  box-shadow: rgb(1, 0, 0);
+  background-image: none;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  width: 487px;
+  height: 650px;
+}
+
+.header {
+  /* background-image: url('./headerimg.avif'); */
+  background-color: navy;
+  width: 487px;
+  height: 150px;
+}
+.header h1{
+  justify-content: center;
+  color: navajowhite;
+  padding: 50px 100px;
+}
+
+input{
+  width: 300px;
+  background-color: navajowhite;
+  /* background-color: white;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ;
+  border-bottom-left-radius:5px ;
+  border-bottom-right-radius:5px ; */
+  box-shadow: none;
+  align-items: normal;
+  list-style-type: lower-roman;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid navajowhite;
+}
+
+.submitButton{
+  text-align: center;
+}
+body{
+  background-color: rgb(57, 57, 77);
+  /* background-image: url('./Capture.PNG'); */
+ background-size: cover;
+}
+.lableclass{
+  color: navajowhite;
+}
